@@ -61,7 +61,7 @@ function countdown(){
     timerTimeOut = setTimeout(function(){
 
         if (seconds <= 0) {
-            secondsDisplay.textContent = "05"
+            secondsDisplay.textContent = "59"
             minutesDisplay.textContent = String(minutes - 1).padStart(2, "0")
         }else{
             secondsDisplay.textContent = String(seconds - 1).padStart(2, "0")
